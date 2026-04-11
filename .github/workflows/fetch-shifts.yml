@@ -26,14 +26,10 @@ jobs:
           DEPUTY_TOKEN: ${{ secrets.DEPUTY_TOKEN }}
         run: python .github/scripts/fetch_shifts.py
 
-              - name: Debug - list files
-                      run: ls -la && echo "---" && cat shifts-today.json || echo "FILE NOT FOUND"
-                      
-
       - name: Commit and push shifts-today.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-                    git add -A
+          git add -A
           git commit -m "chore: update shifts-today.json" --allow-empty
           git push
