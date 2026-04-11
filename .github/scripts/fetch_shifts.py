@@ -1,8 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime, timezone, date
-import calendar
+from datetime import datetime, timezone, timedelta
 
 DEPUTY_TOKEN = os.environ["DEPUTY_TOKEN"]
 SUBDOMAIN = "rbpt.uk.deputy.com"
@@ -13,27 +12,34 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
-def get_today_range():
-    # Deputy stores times as Unix timestamps in local time (Europe/London)
-    # Use calendar to get today's range in UTC but accounting for BST offset
-    import subprocess
-    # Get current date in London time
-    result = subprocess.run(
-        ['date', '-d', 'today 00:00:00', '+%s'],
-        capture_output=True, text=True
-    )
-    # Simpler: use the deputy API's own date format
-    # Just use a wide range - start of today UTC to end of tomorrow UTC
-    # to catch all shifts regardless of timezone offset
+def get_london_time():
+    # Get current UTC time and apply BST offset (UTC+1 in summer, UTC+0 in winter)
+    # Deputy stores timestamps in local time, so we need London time
     now_utc = datetime.now(timezone.utc)
-    today = now_utc.date()
-    start = int(datetime(today.year, today.month, today.day, 0, 0, 0, tzinfo=timezone.utc).timestamp())
-    end = int(datetime(today.year, today.month, today.day, 23, 59, 59, tzinfo=timezone.utc).timestamp())
-    # Add 2 hours buffer on each side for BST
-    start -= 7200
-    end += 7200
-    print(f"Date range: {start} to {end} ({today})")
-    return start, end
+    # Use UTC+1 for BST (Mar-Oct), UTC+0 for GMT (Nov-Feb)
+    # Simple check: BST is last Sunday March to last Sunday October
+    month = now_utc.month
+    if 3 < month < 10:
+        offset = 1
+    elif month == 3 or month == 10:
+        # Check if past last Sunday
+        # Approximate: use offset 1 for March after 25th, October before 25th
+        offset = 1 if (month == 3 and now_utc.day >= 25) or (month == 10 and now_utc.day < 25) else 0
+    else:
+        offset = 0
+    london_tz = timezone(timedelta(hours=offset))
+    return datetime.now(london_tz), offset
+
+def get_today_range():
+    now_london, offset = get_london_time()
+    today = now_london.date()
+    # Midnight to 23:59 in London time, converted to UTC timestamps
+    start_local = datetime(today.year, today.month, today.day, 0, 0, 0) - timedelta(hours=offset)
+    end_local = datetime(today.year, today.month, today.day, 23, 59, 59) - timedelta(hours=offset)
+    start = int(start_local.timestamp())
+    end = int(end_local.timestamp())
+    print(f"Date: {today}, UTC offset: +{offset}h, range: {start} to {end}")
+    return start, end, offset
 
 def fetch_employees():
     resp = requests.get(f"{BASE_URL}/resource/Employee?max=200", headers=HEADERS)
@@ -43,7 +49,6 @@ def fetch_employees():
         employees[emp["Id"]] = {
             "name": f"{emp.get('FirstName', '')} {emp.get('LastName', '')}".strip(),
         }
-    print(f"Fetched {len(employees)} employees")
     return employees
 
 def fetch_departments():
@@ -52,7 +57,6 @@ def fetch_departments():
     departments = {}
     for dept in resp.json():
         departments[dept["Id"]] = dept.get("OperationalUnitName", "Unknown")
-    print(f"Fetched {len(departments)} departments")
     return departments
 
 def fetch_rosters(start, end):
@@ -71,19 +75,21 @@ def fetch_rosters(start, end):
     return data
 
 def main():
-    start, end = get_today_range()
+    start, end, offset = get_today_range()
     employees = fetch_employees()
     departments = fetch_departments()
     rosters = fetch_rosters(start, end)
 
+    london_tz = timezone(timedelta(hours=offset))
     shifts = []
     for r in rosters:
         emp_id = r.get("Employee")
         dept_id = r.get("OperationalUnit")
         emp = employees.get(emp_id, {})
         dept_name = departments.get(dept_id, "Unknown")
-        shift_start = datetime.fromtimestamp(r.get("StartTime", 0))
-        shift_end = datetime.fromtimestamp(r.get("EndTime", 0))
+        # Parse timestamps and display in London time
+        shift_start = datetime.fromtimestamp(r.get("StartTime", 0), tz=timezone.utc).astimezone(london_tz)
+        shift_end = datetime.fromtimestamp(r.get("EndTime", 0), tz=timezone.utc).astimezone(london_tz)
         shifts.append({
             "name": emp.get("name", "Unknown"),
             "department": dept_name,
@@ -91,9 +97,9 @@ def main():
             "end": shift_end.strftime("%H:%M"),
         })
 
-    now = datetime.now()
+    now_london = datetime.now(london_tz)
     output = {
-        "date": now.strftime("%A %d %B %Y"),
+        "date": now_london.strftime("%A %d %B %Y"),
         "generated": datetime.now(timezone.utc).isoformat(),
         "shifts": shifts
     }
