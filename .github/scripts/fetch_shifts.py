@@ -8,7 +8,7 @@ SUBDOMAIN = "rbpt.uk.deputy.com"
 BASE_URL = f"https://{SUBDOMAIN}/api/v1"
 
 HEADERS = {
-    "Authorization": f"DeputyKey {DEPUTY_TOKEN}",
+    "Authorization": f"Bearer {DEPUTY_TOKEN}",
     "Content-Type": "application/json",
 }
 
@@ -75,11 +75,3 @@ def main():
         "generated": datetime.now(timezone.utc).isoformat(),
         "shifts": shifts
     }
-
-    with open("shifts-today.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-
-    print(f"Written {len(shifts)} shifts to shifts-today.json")
-
-if __name__ == "__main__":
-    main()
