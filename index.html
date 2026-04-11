@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Station - Staff On Today</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --burgundy-light: #8a2d40; --charcoal: #2c2c2c; --cream: #F5F0E8; --gold: #C9A84C; }
+  html, body { height: 100%; background: var(--charcoal); color: var(--cream); font-family: 'DM Sans', sans-serif; overflow: hidden; }
+  body { display: flex; flex-direction: column; min-height: 100vh; padding: 3vw 4vw; }
+  header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 3vw; border-bottom: 1px solid rgba(201,168,76,0.3); padding-bottom: 2vw; }
+  .brand-name { font-family: 'DM Serif Display', serif; font-size: clamp(28px, 4vw, 56px); color: var(--cream); line-height: 1; }
+  .brand-sub { font-size: clamp(11px, 1.2vw, 16px); font-weight: 300; color: var(--gold); letter-spacing: 0.2em; text-transform: uppercase; }
+  .date-value { font-family: 'DM Serif Display', serif; font-size: clamp(16px, 2vw, 28px); color: var(--cream); text-align:right; }
+  .clock { font-size: clamp(22px, 3vw, 44px); font-weight: 300; color: var(--gold); font-variant-numeric: tabular-nums; text-align:right; }
+  .dept-section { margin-bottom: 2.5vw; }
+  .dept-label { font-size: clamp(9px, 0.9vw, 12px); font-weight: 500; text-transform: uppercase; letter-spacing: 0.2em; color: var(--gold); margin-bottom: 0.8vw; display: flex; align-items: center; gap: 8px; }
+  .dept-label::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.2); }
+  .shifts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1vw; }
+  .shift-card { background: rgba(245,240,232,0.06); border: 1px solid rgba(245,240,232,0.1); border-radius: 6px; padding: 12px 16px; position: relative; border-left: 3px solid var(--burgundy-light); }
+  .shift-name { font-size: clamp(13px, 1.5vw, 20px); font-weight: 500; color: var(--cream); margin-bottom: 4px; }
+  .shift-time { font-size: clamp(10px, 1vw, 14px); font-weight: 300; color: rgba(245,240,232,0.5); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); animation: pulse 1.4s ease-in-out infinite; display:inline-block; }
+  .dot:nth-child(2){animation-delay:0.2s;}.dot:nth-child(3){animation-delay:0.4s;}
+  @keyframes pulse{0%,80%,100%{opacity:0.2;transform:scale(0.8);}40%{opacity:1;transform:scale(1);}}
+  footer { margin-top: auto; padding-top: 1.5vw; border-top: 1px solid rgba(245,240,232,0.08); display: flex; justify-content: space-between; }
+  .footer-note { font-size: 11px; color: rgba(245,240,232,0.25); }
+  .status-dot { width:6px;height:6px;border-radius:50%;background:#4caf7d;display:inline-block;margin-right:6px; }
+</style>
+</head>
+<body>
+<header>
+  <div><div class="brand-name">The Station</div><div class="brand-sub">Staff on today</div></div>
+  <div><div class="date-value" id="display-date">-</div><div class="clock" id="clock">-</div></div>
+</header>
+<main id="content"><div style="display:flex;gap:8px;padding:2vw 0;"><div class="dot"></div><div class="dot"></div><div class="dot"></div><span style="color:rgba(245,240,232,0.4);margin-left:4px;">Loading shifts...</span></div></main>
+<footer>
+  <span class="footer-note"><span class="status-dot"></span>Live from Deputy - refreshes daily at 07:00</span>
+  <span class="footer-note" id="generated-time"></span>
+</footer>
+<script>
+function updateClock(){var n=new Date();document.getElementById('clock').textContent=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');}
+updateClock();setInterval(updateClock,10000);
+fetch('shifts-today.json?_='+Date.now()).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(data){
+  document.getElementById('display-date').textContent=data.date||'-';
+  if(data.generated){var g=new Date(data.generated);document.getElementById('generated-time').textContent='Last updated '+String(g.getHours()).padStart(2,'0')+':'+String(g.getMinutes()).padStart(2,'0');}
+  var c=document.getElementById('content');
+  if(!data.shifts||!data.shifts.length){c.innerHTML='<p style="color:rgba(245,240,232,0.35);font-style:italic;">No shifts today.</p>';return;}
+  var grouped=data.shifts.reduce(function(a,s){var k=s.department||'Other';if(!a[k])a[k]=[];a[k].push(s);return a;},{});
+  var html='';
+  Object.keys(grouped).sort().forEach(function(dept){
+    html+='<div class="dept-section"><div class="dept-label">'+dept+'</div><div class="shifts-grid">';
+    grouped[dept].forEach(function(s){html+='<div class="shift-card"><div class="shift-name">'+s.name+'</div><div class="shift-time">'+s.start+' - '+s.end+'</div></div>';});
+    html+='</div></div>';
+  });
+  c.innerHTML=html;
+}).catch(function(err){document.getElementById('content').innerHTML='<div style="color:#e07070;">Could not load shifts. ('+err.message+')</div>';});
+</script>
+</body>
+</html>
