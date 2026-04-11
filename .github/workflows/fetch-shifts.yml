@@ -1,4 +1,4 @@
-hname: Fetch Deputy Shifts
+name: Fetch Deputy Shifts
 
 on:
   schedule:
