@@ -1,18 +1,54 @@
 {
-  "date": "Sunday 12 April 2026",
-  "generated": "2026-04-12T09:33:22.442723+00:00",
+  "date": "Monday 13 April 2026",
+  "generated": "2026-04-13T11:52:58.802899+00:00",
   "shifts": [
     {
-      "name": "Wahidullah Durgai",
+      "name": "Ganj Nikpay",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
     },
     {
-      "name": "Richard Wilding",
+      "name": "Matthew Reed",
       "department": "The Station",
       "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
       "end": "16:30"
+    },
+    {
+      "name": "Gemma Lord",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Sophie Grufferty",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Holly Robinson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Anna Tunstall",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "15:00"
+    },
+    {
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "09:30",
+      "end": "17:00"
     },
     {
       "name": "Glenys Jones",
@@ -21,28 +57,28 @@
       "end": "16:15"
     },
     {
-      "name": "Grace Baker",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "16:15"
+      "end": "16:00"
     },
     {
-      "name": "Lauren Pearson",
+      "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "12:00",
+      "start": "11:00",
+      "end": "19:00"
+    },
+    {
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "17:00",
       "end": "21:30"
     },
     {
-      "name": "Natalie Muxworthy",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "16:00",
-      "end": "21:00"
-    },
-    {
-      "name": "Finlay Reed",
-      "department": "The Station Cinema",
-      "start": "16:15",
-      "end": "20:30"
+      "start": "18:00",
+      "end": "22:00"
     }
   ]
 }
