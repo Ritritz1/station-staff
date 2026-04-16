@@ -1,6 +1,6 @@
 {
-  "date": "Wednesday 15 April 2026",
-  "generated": "2026-04-15T10:46:46.322939+00:00",
+  "date": "Thursday 16 April 2026",
+  "generated": "2026-04-16T10:49:31.500232+00:00",
   "shifts": [
     {
       "name": "John McM",
@@ -45,10 +45,22 @@
       "end": "16:30"
     },
     {
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "16:00"
+    },
+    {
       "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "09:30",
-      "end": "17:00"
+      "start": "09:00",
+      "end": "15:00"
+    },
+    {
+      "name": "Molly Mckeon",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "16:00"
     },
     {
       "name": "Karen Lawrence",
@@ -57,16 +69,22 @@
       "end": "16:15"
     },
     {
-      "name": "Lewis Roberts-austin",
-      "department": "The Station Cinema",
-      "start": "10:45",
-      "end": "16:00"
-    },
-    {
       "name": "Erin Finn",
       "department": "The Station Cinema",
+      "start": "10:45",
+      "end": "16:15"
+    },
+    {
+      "name": "Chloe Mackenzie",
+      "department": "The Station",
+      "start": "13:00",
+      "end": "22:30"
+    },
+    {
+      "name": "Leo Vogel",
+      "department": "The Station Cinema",
       "start": "16:00",
-      "end": "21:30"
+      "end": "21:00"
     },
     {
       "name": "Ella Harris",
