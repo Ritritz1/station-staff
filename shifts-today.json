@@ -1,9 +1,9 @@
 {
-  "date": "Saturday 18 April 2026",
-  "generated": "2026-04-18T09:34:50.052314+00:00",
+  "date": "Sunday 19 April 2026",
+  "generated": "2026-04-19T09:34:56.637041+00:00",
   "shifts": [
     {
-      "name": "Ganj Nikpay",
+      "name": "Wahidullah Durgai",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -27,34 +27,28 @@
       "end": "17:00"
     },
     {
-      "name": "Dan Westgarth",
+      "name": "Harry Ritson",
       "department": "The Station",
-      "start": "13:00",
-      "end": "18:00"
+      "start": "12:00",
+      "end": "20:30"
     },
     {
-      "name": "Finlay Reed",
+      "name": "Hollie Hipkiss-Walker",
+      "department": "The Station Cinema",
+      "start": "12:45",
+      "end": "17:00"
+    },
+    {
+      "name": "Eddy Player",
       "department": "The Station Cinema",
       "start": "16:00",
-      "end": "21:30"
+      "end": "20:15"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Grace Baker",
       "department": "The Station Cinema",
       "start": "17:00",
-      "end": "19:30"
-    },
-    {
-      "name": "Leo Vogel",
-      "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "21:30"
-    },
-    {
-      "name": "Molly Mckeon",
-      "department": "The Station",
-      "start": "18:00",
-      "end": "22:45"
+      "end": "20:30"
     }
   ]
 }
