@@ -1,54 +1,90 @@
 {
-  "date": "Sunday 19 April 2026",
-  "generated": "2026-04-19T09:34:56.637041+00:00",
+  "date": "Monday 20 April 2026",
+  "generated": "2026-04-20T11:54:04.700914+00:00",
   "shifts": [
     {
-      "name": "Wahidullah Durgai",
+      "name": "Unknown",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
     },
     {
-      "name": "Richard Wilding",
+      "name": "Unknown",
       "department": "The Station",
       "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Sharon King",
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "16:00"
+    },
+    {
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "15:00"
+    },
+    {
+      "name": "Unknown",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Natalie Muxworthy",
+      "name": "Unknown",
+      "department": "The Station",
+      "start": "10:30",
+      "end": "18:30"
+    },
+    {
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "17:00"
+      "end": "16:00"
     },
     {
-      "name": "Harry Ritson",
+      "name": "Molly Mckeon",
       "department": "The Station",
-      "start": "12:00",
-      "end": "20:30"
-    },
-    {
-      "name": "Hollie Hipkiss-Walker",
-      "department": "The Station Cinema",
-      "start": "12:45",
-      "end": "17:00"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station Cinema",
-      "start": "16:00",
-      "end": "20:15"
+      "start": "13:00",
+      "end": "22:45"
     },
     {
       "name": "Grace Baker",
       "department": "The Station Cinema",
+      "start": "16:00",
+      "end": "21:45"
+    },
+    {
+      "name": "Hollie Hipkiss-Walker",
+      "department": "The Station Cinema",
       "start": "17:00",
-      "end": "20:30"
+      "end": "21:30"
     }
   ]
 }
