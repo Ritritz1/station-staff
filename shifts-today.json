@@ -1,9 +1,9 @@
 {
-  "date": "Thursday 23 April 2026",
-  "generated": "2026-04-23T10:58:22.610808+00:00",
+  "date": "Friday 24 April 2026",
+  "generated": "2026-04-24T10:55:54.300886+00:00",
   "shifts": [
     {
-      "name": "John McM",
+      "name": "Ganj Nikpay",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -21,18 +21,6 @@
       "end": "16:30"
     },
     {
-      "name": "Gemma Lord",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Sophie Grufferty",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
       "name": "Holly Robinson",
       "department": "The Station",
       "start": "08:30",
@@ -42,40 +30,40 @@
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
-      "end": "16:30"
+      "end": "15:00"
     },
     {
-      "name": "Sharon King",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Leanne Acton",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Volunteer V",
+      "name": "Lyssy Astwood",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "13:00"
-    },
-    {
-      "name": "Leo Vogel",
-      "department": "The Station Cinema",
-      "start": "13:00",
-      "end": "18:30"
+      "end": "16:30"
     },
     {
       "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "13:00",
+      "start": "12:00",
       "end": "22:30"
     },
     {
-      "name": "Ella Harris",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
       "start": "17:00",
-      "end": "21:45"
+      "end": "21:30"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Eddy Player",
       "department": "The Station Cinema",
       "start": "18:30",
       "end": "22:15"
