@@ -1,6 +1,6 @@
 {
-  "date": "Friday 24 April 2026",
-  "generated": "2026-04-24T10:55:54.300886+00:00",
+  "date": "Saturday 25 April 2026",
+  "generated": "2026-04-25T10:05:52.443720+00:00",
   "shifts": [
     {
       "name": "Ganj Nikpay",
@@ -9,34 +9,10 @@
       "end": "10:00"
     },
     {
-      "name": "Matthew Reed",
+      "name": "Richard Wilding",
       "department": "The Station",
       "start": "08:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Sarah Iveson",
-      "department": "The Station",
-      "start": "08:30",
       "end": "16:30"
-    },
-    {
-      "name": "Holly Robinson",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Anna Tunstall",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "17:00"
     },
     {
       "name": "Leanne Acton",
@@ -45,27 +21,39 @@
       "end": "16:15"
     },
     {
-      "name": "Lyssy Astwood",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "10:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Lewis Roberts-austin",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "16:30"
+      "end": "15:15"
     },
     {
-      "name": "Dan Westgarth",
+      "name": "Natalie Muxworthy",
+      "department": "The Station Cinema",
+      "start": "12:45",
+      "end": "22:15"
+    },
+    {
+      "name": "Grace Baker",
+      "department": "The Station Cinema",
+      "start": "15:30",
+      "end": "20:15"
+    },
+    {
+      "name": "Lauren Pearson",
       "department": "The Station",
-      "start": "12:00",
-      "end": "22:30"
+      "start": "16:00",
+      "end": "22:15"
     },
     {
-      "name": "Finlay Reed",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "21:30"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station Cinema",
-      "start": "18:30",
+      "start": "18:00",
       "end": "22:15"
     }
   ]
