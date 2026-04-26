@@ -1,9 +1,9 @@
 {
-  "date": "Saturday 25 April 2026",
-  "generated": "2026-04-25T10:05:52.443720+00:00",
+  "date": "Sunday 26 April 2026",
+  "generated": "2026-04-26T10:07:59.770103+00:00",
   "shifts": [
     {
-      "name": "Ganj Nikpay",
+      "name": "Wahidullah Durgai",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -15,46 +15,34 @@
       "end": "16:30"
     },
     {
-      "name": "Leanne Acton",
+      "name": "Glenys Jones",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "10:00",
+      "name": "Grace Baker",
+      "department": "The Station Cinema",
+      "start": "10:45",
       "end": "17:00"
     },
     {
-      "name": "Lewis Roberts-austin",
-      "department": "The Station Cinema",
-      "start": "10:45",
-      "end": "15:15"
-    },
-    {
-      "name": "Natalie Muxworthy",
-      "department": "The Station Cinema",
-      "start": "12:45",
-      "end": "22:15"
-    },
-    {
-      "name": "Grace Baker",
-      "department": "The Station Cinema",
-      "start": "15:30",
-      "end": "20:15"
-    },
-    {
-      "name": "Lauren Pearson",
+      "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "16:00",
-      "end": "22:15"
+      "start": "11:00",
+      "end": "21:00"
     },
     {
-      "name": "Hollie Hipkiss-Walker",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "22:15"
+      "start": "13:30",
+      "end": "18:00"
+    },
+    {
+      "name": "Eddy Player",
+      "department": "The Station Cinema",
+      "start": "17:00",
+      "end": "21:00"
     }
   ]
 }
