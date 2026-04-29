@@ -1,6 +1,6 @@
 {
-  "date": "Tuesday 28 April 2026",
-  "generated": "2026-04-28T09:27:38.000320+00:00",
+  "date": "Wednesday 29 April 2026",
+  "generated": "2026-04-29T09:13:27.323334+00:00",
   "shifts": [
     {
       "name": "John McM",
@@ -21,6 +21,18 @@
       "end": "16:30"
     },
     {
+      "name": "Gemma Lord",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Sophie Grufferty",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
       "name": "Holly Robinson",
       "department": "The Station",
       "start": "08:30",
@@ -33,37 +45,37 @@
       "end": "16:30"
     },
     {
-      "name": "Karen Lawrence",
+      "name": "Dilys Bruce",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Volunteer V",
-      "department": "The Station Cinema",
-      "start": "10:45",
-      "end": "13:00"
-    },
-    {
-      "name": "Harry Ritson",
+      "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "13:00",
-      "end": "22:15"
-    },
-    {
-      "name": "Erin Finn",
-      "department": "The Station Cinema",
-      "start": "13:00",
+      "start": "10:00",
       "end": "18:00"
     },
     {
-      "name": "Ella Harris",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "17:30",
-      "end": "21:45"
+      "start": "10:45",
+      "end": "16:30"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Molly Mckeon",
+      "department": "The Station",
+      "start": "14:30",
+      "end": "22:15"
+    },
+    {
+      "name": "Finlay Reed",
+      "department": "The Station Cinema",
+      "start": "16:30",
+      "end": "21:00"
+    },
+    {
+      "name": "Erin Finn",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "22:15"
