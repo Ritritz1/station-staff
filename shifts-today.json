@@ -1,9 +1,9 @@
 {
-  "date": "Monday 18 May 2026",
-  "generated": "2026-05-18T11:09:28.594762+00:00",
+  "date": "Tuesday 19 May 2026",
+  "generated": "2026-05-19T10:38:59.940538+00:00",
   "shifts": [
     {
-      "name": "Ganj Nikpay",
+      "name": "John Mcmeakin",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -42,42 +42,48 @@
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
-      "end": "15:00"
+      "end": "16:30"
     },
     {
-      "name": "Glenys Jones",
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "09:30",
+      "end": "17:00"
+    },
+    {
+      "name": "Karen Lawrence",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "10:00",
-      "end": "18:30"
-    },
-    {
-      "name": "Leo Vogel",
+      "name": "Volunteer V",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "16:45"
+      "end": "13:00"
+    },
+    {
+      "name": "Erin Finn",
+      "department": "The Station Cinema",
+      "start": "13:00",
+      "end": "17:00"
     },
     {
       "name": "Molly Mckeon",
       "department": "The Station",
-      "start": "14:00",
-      "end": "22:00"
+      "start": "17:00",
+      "end": "22:15"
     },
     {
-      "name": "Grace Baker",
+      "name": "Lewis Roberts-austin",
       "department": "The Station Cinema",
       "start": "17:00",
       "end": "21:30"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Ella Harris",
       "department": "The Station Cinema",
-      "start": "18:30",
+      "start": "18:00",
       "end": "22:00"
     }
   ]
