@@ -1,9 +1,9 @@
 {
-  "date": "Thursday 21 May 2026",
-  "generated": "2026-05-21T10:41:50.786953+00:00",
+  "date": "Friday 22 May 2026",
+  "generated": "2026-05-22T10:26:04.477802+00:00",
   "shifts": [
     {
-      "name": "John Mcmeakin",
+      "name": "Ganj Nikpay",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -33,10 +33,16 @@
       "end": "16:30"
     },
     {
-      "name": "Unknown",
+      "name": "Holly Robinson",
       "department": "The Station",
       "start": "08:30",
       "end": "16:30"
+    },
+    {
+      "name": "Anna Tunstall",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "15:00"
     },
     {
       "name": "Harry Ritson",
@@ -45,52 +51,28 @@
       "end": "17:00"
     },
     {
-      "name": "Anna Tunstall",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "16:30"
-    },
-    {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "09:30",
-      "end": "18:00"
-    },
-    {
-      "name": "Glenys Jones",
+      "name": "Sharon King",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Volunteer V",
+      "name": "Erin Finn",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "13:00"
+      "end": "17:00"
     },
     {
-      "name": "Leo Vogel",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "13:00",
-      "end": "18:00"
-    },
-    {
-      "name": "Molly Mckeon",
-      "department": "The Station",
-      "start": "17:30",
-      "end": "22:15"
-    },
-    {
-      "name": "Ella Harris",
-      "department": "The Station Cinema",
-      "start": "17:45",
-      "end": "21:45"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station Cinema",
-      "start": "18:00",
+      "start": "16:00",
       "end": "22:00"
+    },
+    {
+      "name": "Lewis Roberts-austin",
+      "department": "The Station Cinema",
+      "start": "18:30",
+      "end": "22:15"
     }
   ]
 }
