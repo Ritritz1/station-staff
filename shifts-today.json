@@ -1,24 +1,18 @@
 {
-  "date": "Thursday 28 May 2026",
-  "generated": "2026-05-28T10:58:51.382213+00:00",
+  "date": "Friday 29 May 2026",
+  "generated": "2026-05-29T10:50:53.277492+00:00",
   "shifts": [
     {
-      "name": "John Mcmeakin",
+      "name": "Wahidullah Durgai",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
     },
     {
-      "name": "Matthew Reed",
+      "name": "Unknown",
       "department": "The Station",
       "start": "08:00",
       "end": "17:00"
-    },
-    {
-      "name": "Sarah Iveson",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
     },
     {
       "name": "Gemma Lord",
@@ -39,46 +33,46 @@
       "end": "16:30"
     },
     {
-      "name": "Karen Lawrence",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "17:00"
+    },
+    {
+      "name": "Anna Tunstall",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "15:00"
+    },
+    {
+      "name": "Dilys Bruce",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "10:30",
-      "end": "18:30"
-    },
-    {
-      "name": "Finlay Reed",
+      "name": "Volunteer V",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "13:00"
+      "end": "12:00"
     },
     {
-      "name": "Hollie Hipkiss-Walker",
-      "department": "The Station Cinema",
-      "start": "13:00",
-      "end": "17:30"
-    },
-    {
-      "name": "Harry Ritson",
+      "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "14:00",
-      "end": "22:15"
-    },
-    {
-      "name": "Chloe Mackenzie",
-      "department": "The Station Cinema",
-      "start": "17:30",
-      "end": "22:15"
+      "start": "12:00",
+      "end": "22:30"
     },
     {
       "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "18:30",
-      "end": "22:00"
+      "start": "12:30",
+      "end": "18:00"
+    },
+    {
+      "name": "Eddy Player",
+      "department": "The Station Cinema",
+      "start": "17:30",
+      "end": "22:15"
     }
   ]
 }
