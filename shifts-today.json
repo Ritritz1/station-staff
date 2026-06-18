@@ -1,6 +1,6 @@
 {
-  "date": "Wednesday 17 June 2026",
-  "generated": "2026-06-17T11:53:44.808060+00:00",
+  "date": "Thursday 18 June 2026",
+  "generated": "2026-06-18T11:10:50.866714+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
@@ -45,19 +45,19 @@
       "end": "16:30"
     },
     {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "16:00"
-    },
-    {
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
       "end": "16:30"
     },
     {
-      "name": "Leanne Acton",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Glenys Jones",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
@@ -69,28 +69,28 @@
       "end": "13:00"
     },
     {
-      "name": "Dan Westgarth",
+      "name": "Molly Mckeon",
       "department": "The Station",
       "start": "12:30",
       "end": "22:30"
     },
     {
-      "name": "Erin Finn",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "13:00",
-      "end": "17:00"
+      "end": "18:00"
     },
     {
-      "name": "Lyssy Astwood",
+      "name": "Natalie Muxworthy",
       "department": "The Station Cinema",
-      "start": "17:00",
+      "start": "18:00",
       "end": "21:45"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Eddy Player",
       "department": "The Station Cinema",
-      "start": "18:15",
-      "end": "22:30"
+      "start": "18:30",
+      "end": "22:00"
     }
   ]
 }
