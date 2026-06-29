@@ -1,54 +1,78 @@
 {
-  "date": "Sunday 28 June 2026",
-  "generated": "2026-06-28T10:05:46.092652+00:00",
+  "date": "Monday 29 June 2026",
+  "generated": "2026-06-29T12:02:36.743628+00:00",
   "shifts": [
     {
-      "name": "Wahidullah Durgai",
+      "name": "Eddy Player",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
     },
     {
-      "name": "Richard Wilding",
+      "name": "Matthew Reed",
       "department": "The Station",
       "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Natalie Muxworthy",
-      "department": "The Station Cinema",
-      "start": "09:30",
-      "end": "16:00"
+      "name": "Gemma Lord",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Holly Robinson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Anna Tunstall",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "15:00"
     },
     {
       "name": "Harry Ritson",
       "department": "The Station",
-      "start": "09:30",
-      "end": "14:00"
+      "start": "09:00",
+      "end": "17:00"
     },
     {
-      "name": "Sharon King",
+      "name": "Leanne Acton",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "10:30",
+      "end": "18:30"
+    },
+    {
+      "name": "Leo Vogel",
+      "department": "The Station Cinema",
+      "start": "10:45",
+      "end": "17:00"
+    },
+    {
       "name": "Chloe Mackenzie",
       "department": "The Station",
-      "start": "14:00",
-      "end": "20:00"
+      "start": "17:30",
+      "end": "22:15"
     },
     {
-      "name": "Finlay Reed",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "15:30",
-      "end": "19:30"
-    },
-    {
-      "name": "Lyssy Astwood",
-      "department": "The Station Cinema",
-      "start": "16:00",
-      "end": "19:45"
+      "start": "18:00",
+      "end": "22:15"
     }
   ]
 }
