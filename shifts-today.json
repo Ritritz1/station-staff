@@ -1,30 +1,42 @@
 {
-  "date": "Sunday 05 July 2026",
-  "generated": "2026-07-05T09:44:00.890726+00:00",
+  "date": "Monday 06 July 2026",
+  "generated": "2026-07-06T11:40:02.289344+00:00",
   "shifts": [
     {
-      "name": "Wahidullah Durgai",
+      "name": "Eddy Player",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
     },
     {
-      "name": "Richard Wilding",
+      "name": "Matthew Reed",
       "department": "The Station",
       "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Gemma Lord",
+      "department": "The Station",
+      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Molly Mckeon",
+      "name": "Anna Tunstall",
       "department": "The Station",
-      "start": "09:30",
-      "end": "14:00"
+      "start": "09:00",
+      "end": "15:00"
     },
     {
-      "name": "Hollie Hipkiss-Walker",
-      "department": "The Station Cinema",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Dan Westgarth",
+      "department": "The Station",
       "start": "09:30",
-      "end": "14:00"
+      "end": "19:00"
     },
     {
       "name": "Glenys Jones",
@@ -33,22 +45,22 @@
       "end": "16:15"
     },
     {
+      "name": "Natalie Muxworthy",
+      "department": "The Station Cinema",
+      "start": "14:45",
+      "end": "21:00"
+    },
+    {
+      "name": "Lyssy Astwood",
+      "department": "The Station Cinema",
+      "start": "17:00",
+      "end": "21:15"
+    },
+    {
       "name": "Chloe Mackenzie",
       "department": "The Station",
-      "start": "14:00",
-      "end": "20:30"
-    },
-    {
-      "name": "Lewis Roberts-austin",
-      "department": "The Station Cinema",
-      "start": "14:00",
-      "end": "20:15"
-    },
-    {
-      "name": "Grace Baker",
-      "department": "The Station Cinema",
-      "start": "15:00",
-      "end": "21:00"
+      "start": "17:00",
+      "end": "22:00"
     }
   ]
 }
