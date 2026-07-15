@@ -1,6 +1,6 @@
 {
-  "date": "Tuesday 14 July 2026",
-  "generated": "2026-07-14T09:07:45.205657+00:00",
+  "date": "Wednesday 15 July 2026",
+  "generated": "2026-07-15T09:11:30.347274+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
@@ -33,28 +33,16 @@
       "end": "16:30"
     },
     {
-      "name": "Holly Robinson",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
       "end": "16:30"
     },
     {
-      "name": "Karen Lawrence",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
-    },
-    {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "10:00",
-      "end": "18:30"
     },
     {
       "name": "Volunteer V",
@@ -63,25 +51,25 @@
       "end": "13:00"
     },
     {
-      "name": "Natalie Muxworthy",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "13:00",
+      "start": "10:45",
       "end": "17:00"
     },
     {
-      "name": "Harry Ritson",
+      "name": "Molly Mckeon",
       "department": "The Station",
-      "start": "16:30",
-      "end": "21:30"
+      "start": "12:00",
+      "end": "21:45"
     },
     {
-      "name": "Lyssy Astwood",
+      "name": "Ella Harris",
       "department": "The Station Cinema",
       "start": "17:00",
-      "end": "21:15"
+      "end": "21:00"
     },
     {
-      "name": "Grace Baker",
+      "name": "Natalie Muxworthy",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "21:30"
