@@ -1,11 +1,17 @@
 {
-  "date": "Tuesday 21 July 2026",
-  "generated": "2026-07-21T09:30:55.890578+00:00",
+  "date": "Wednesday 22 July 2026",
+  "generated": "2026-07-22T09:29:45.314126+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
       "department": "The Station Building",
       "start": "05:00",
+      "end": "10:00"
+    },
+    {
+      "name": "Richard Wilding",
+      "department": "The Station Building",
+      "start": "08:00",
       "end": "10:00"
     },
     {
@@ -27,55 +33,49 @@
       "end": "16:30"
     },
     {
+      "name": "Holly Robinson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Ella Harris",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
       "end": "16:30"
     },
     {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "09:30",
-      "end": "16:00"
-    },
-    {
-      "name": "Karen Lawrence",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Volunteer V",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "13:00"
+      "end": "16:00"
     },
     {
-      "name": "Natalie Muxworthy",
-      "department": "The Station Cinema",
+      "name": "Harry Ritson",
+      "department": "The Station",
       "start": "13:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Ella Harris",
-      "department": "The Station",
-      "start": "13:30",
-      "end": "17:00"
-    },
-    {
-      "name": "Molly Mckeon",
-      "department": "The Station",
-      "start": "16:00",
       "end": "23:00"
     },
     {
-      "name": "Ella Harris",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "17:00",
       "end": "21:30"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Erin Finn",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "23:00"
