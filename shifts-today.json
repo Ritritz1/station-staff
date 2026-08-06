@@ -1,6 +1,6 @@
 {
-  "date": "Wednesday 05 August 2026",
-  "generated": "2026-08-05T09:39:08.101592+00:00",
+  "date": "Thursday 06 August 2026",
+  "generated": "2026-08-06T09:42:14.282745+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
@@ -13,6 +13,12 @@
       "department": "The Station",
       "start": "08:00",
       "end": "17:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
     },
     {
       "name": "Gemma Lord",
@@ -39,46 +45,52 @@
       "end": "16:30"
     },
     {
-      "name": "Harry Ritson",
+      "name": "Ella Harris",
       "department": "The Station",
       "start": "09:00",
       "end": "17:00"
     },
     {
-      "name": "Belinda Stares",
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "09:30",
+      "end": "20:00"
+    },
+    {
+      "name": "Karen Lawrence",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Leo Vogel",
+      "name": "Volunteer V",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "16:45"
+      "end": "13:00"
     },
     {
-      "name": "Chloe Mackenzie",
+      "name": "Harry Ritson",
       "department": "The Station",
-      "start": "12:15",
-      "end": "23:00"
+      "start": "11:45",
+      "end": "22:30"
     },
     {
-      "name": "Ella Harris",
-      "department": "The Station",
-      "start": "14:00",
-      "end": "16:30"
-    },
-    {
-      "name": "Ella Harris",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "17:00",
+      "start": "13:00",
+      "end": "18:00"
+    },
+    {
+      "name": "Erin Finn",
+      "department": "The Station Cinema",
+      "start": "18:00",
       "end": "22:00"
     },
     {
-      "name": "Lyssy Astwood",
+      "name": "Grace Baker",
       "department": "The Station Cinema",
-      "start": "18:30",
-      "end": "23:00"
+      "start": "18:00",
+      "end": "22:30"
     }
   ]
 }
