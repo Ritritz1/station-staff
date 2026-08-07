@@ -1,9 +1,9 @@
 {
-  "date": "Thursday 06 August 2026",
-  "generated": "2026-08-06T09:42:14.282745+00:00",
+  "date": "Friday 07 August 2026",
+  "generated": "2026-08-07T08:17:04.771475+00:00",
   "shifts": [
     {
-      "name": "John Mcmeakin",
+      "name": "Eddy Player",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -39,55 +39,37 @@
       "end": "16:30"
     },
     {
-      "name": "Anna Tunstall",
+      "name": "Ella Harris",
       "department": "The Station",
-      "start": "09:00",
+      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Ella Harris",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "09:30",
-      "end": "20:00"
-    },
-    {
-      "name": "Karen Lawrence",
+      "name": "Dilys Bruce",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Volunteer V",
+      "name": "Grace Baker",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "13:00"
+      "end": "16:45"
     },
     {
       "name": "Harry Ritson",
       "department": "The Station",
-      "start": "11:45",
+      "start": "12:15",
       "end": "22:30"
     },
     {
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "17:00",
+      "end": "21:45"
+    },
+    {
       "name": "Leo Vogel",
-      "department": "The Station Cinema",
-      "start": "13:00",
-      "end": "18:00"
-    },
-    {
-      "name": "Erin Finn",
-      "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "22:00"
-    },
-    {
-      "name": "Grace Baker",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "22:30"
