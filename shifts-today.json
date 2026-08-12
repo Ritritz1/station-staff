@@ -1,6 +1,6 @@
 {
-  "date": "Tuesday 11 August 2026",
-  "generated": "2026-08-11T08:11:08.838400+00:00",
+  "date": "Wednesday 12 August 2026",
+  "generated": "2026-08-12T08:21:34.657609+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
@@ -39,52 +39,52 @@
       "end": "16:30"
     },
     {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "17:00"
-    },
-    {
       "name": "Karen Lawrence",
       "department": "The Station Shop",
       "start": "09:45",
-      "end": "16:15"
+      "end": "13:00"
     },
     {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "10:00",
-      "end": "20:00"
-    },
-    {
-      "name": "Leo Vogel",
+      "name": "Lyssy Astwood",
       "department": "The Station Cinema",
       "start": "10:45",
       "end": "16:45"
     },
     {
-      "name": "Ella Harris",
+      "name": "Eddy Player",
       "department": "The Station",
       "start": "11:30",
+      "end": "18:30"
+    },
+    {
+      "name": "Ella Harris",
+      "department": "The Station",
+      "start": "11:45",
       "end": "16:30"
     },
     {
-      "name": "Eddy Player",
+      "name": "Harry Ritson",
       "department": "The Station",
-      "start": "14:00",
+      "start": "12:00",
       "end": "23:00"
+    },
+    {
+      "name": "Glenys Jones",
+      "department": "The Station Shop",
+      "start": "13:00",
+      "end": "16:15"
     },
     {
       "name": "Ella Harris",
       "department": "The Station Cinema",
       "start": "17:00",
-      "end": "21:30"
+      "end": "21:45"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
       "start": "18:00",
-      "end": "22:45"
+      "end": "23:00"
     }
   ]
 }
