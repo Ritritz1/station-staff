@@ -1,9 +1,9 @@
 {
-  "date": "Thursday 13 August 2026",
-  "generated": "2026-08-13T08:24:11.427450+00:00",
+  "date": "Friday 14 August 2026",
+  "generated": "2026-08-14T08:19:25.025026+00:00",
   "shifts": [
     {
-      "name": "John Mcmeakin",
+      "name": "Eddy Player",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -39,40 +39,46 @@
       "end": "16:30"
     },
     {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "19:00"
-    },
-    {
-      "name": "Karen Lawrence",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Leo Vogel",
+      "name": "Volunteer V",
       "department": "The Station Cinema",
       "start": "10:45",
-      "end": "16:45"
+      "end": "12:00"
     },
     {
-      "name": "Chloe Mackenzie",
+      "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "12:15",
-      "end": "22:15"
+      "start": "12:00",
+      "end": "22:30"
     },
     {
       "name": "Lyssy Astwood",
       "department": "The Station Cinema",
-      "start": "16:45",
-      "end": "21:45"
+      "start": "12:00",
+      "end": "18:00"
+    },
+    {
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "13:00",
+      "end": "22:00"
+    },
+    {
+      "name": "Chloe Mackenzie",
+      "department": "The Station Cinema",
+      "start": "15:00",
+      "end": "22:00"
     },
     {
       "name": "Finlay Reed",
       "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "23:15"
+      "start": "15:30",
+      "end": "21:30"
     }
   ]
 }
