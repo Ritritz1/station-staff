@@ -1,9 +1,9 @@
 {
-  "date": "Thursday 20 August 2026",
-  "generated": "2026-08-20T07:44:38.929021+00:00",
+  "date": "Friday 21 August 2026",
+  "generated": "2026-08-21T07:47:30.939129+00:00",
   "shifts": [
     {
-      "name": "Eddy Player",
+      "name": "Wahidullah Durgai",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
@@ -13,6 +13,12 @@
       "department": "The Station",
       "start": "08:00",
       "end": "17:00"
+    },
+    {
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "08:00",
+      "end": "15:00"
     },
     {
       "name": "Gemma Lord",
@@ -42,10 +48,10 @@
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
-      "end": "16:30"
+      "end": "15:00"
     },
     {
-      "name": "Karen Lawrence",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
@@ -60,31 +66,25 @@
       "name": "Dan Westgarth",
       "department": "The Station",
       "start": "12:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Finlay Reed",
-      "department": "The Station Cinema",
-      "start": "13:00",
-      "end": "17:30"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "14:00",
-      "end": "22:45"
+      "end": "22:30"
     },
     {
       "name": "Grace Baker",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "21:45"
+      "start": "13:00",
+      "end": "18:00"
     },
     {
       "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
+      "start": "17:30",
+      "end": "22:00"
+    },
+    {
+      "name": "Finlay Reed",
+      "department": "The Station Cinema",
       "start": "18:00",
-      "end": "23:00"
+      "end": "22:15"
     }
   ]
 }
