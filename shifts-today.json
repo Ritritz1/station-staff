@@ -1,6 +1,6 @@
 {
-  "date": "Saturday 22 August 2026",
-  "generated": "2026-08-22T07:34:56.252553+00:00",
+  "date": "Sunday 23 August 2026",
+  "generated": "2026-08-23T07:36:45.372452+00:00",
   "shifts": [
     {
       "name": "Wahidullah Durgai",
@@ -15,34 +15,34 @@
       "end": "16:30"
     },
     {
-      "name": "Belinda Stares",
+      "name": "Glenys Jones",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Dan Westgarth",
+      "name": "Sarah Iveson",
       "department": "The Station",
-      "start": "12:30",
-      "end": "22:45"
+      "start": "12:45",
+      "end": "20:45"
     },
     {
-      "name": "Finlay Reed",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "17:00"
+      "start": "13:00",
+      "end": "17:30"
     },
     {
       "name": "Chloe Mackenzie",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "22:30"
+      "start": "14:45",
+      "end": "20:45"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "21:45"
+      "start": "17:15",
+      "end": "20:30"
     }
   ]
 }
