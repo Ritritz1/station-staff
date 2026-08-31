@@ -1,17 +1,29 @@
 {
-  "date": "Sunday 30 August 2026",
-  "generated": "2026-08-30T12:41:05.051779+00:00",
+  "date": "Monday 31 August 2026",
+  "generated": "2026-08-31T14:57:25.232791+00:00",
   "shifts": [
     {
-      "name": "Wahidullah Durgai",
+      "name": "Richard Wilding",
       "department": "The Station Building",
-      "start": "05:00",
-      "end": "10:00"
+      "start": "06:00",
+      "end": "09:00"
     },
     {
-      "name": "Richard Wilding",
+      "name": "Matthew Reed",
       "department": "The Station",
       "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Sophie Grufferty",
+      "department": "The Station",
+      "start": "08:30",
       "end": "16:30"
     },
     {
@@ -21,28 +33,34 @@
       "end": "16:15"
     },
     {
-      "name": "Finlay Reed",
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "12:00",
+      "end": "20:00"
+    },
+    {
+      "name": "Lyssy Astwood",
       "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "17:00"
+      "start": "13:00",
+      "end": "18:30"
     },
     {
       "name": "Harry Ritson",
       "department": "The Station",
-      "start": "13:00",
-      "end": "21:00"
+      "start": "16:00",
+      "end": "22:00"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Grace Baker",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "20:30"
+      "start": "18:30",
+      "end": "22:15"
     },
     {
-      "name": "Leo Vogel",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
-      "start": "17:30",
-      "end": "21:15"
+      "start": "18:30",
+      "end": "22:00"
     }
   ]
 }
