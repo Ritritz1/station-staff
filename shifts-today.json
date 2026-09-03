@@ -1,6 +1,6 @@
 {
-  "date": "Wednesday 02 September 2026",
-  "generated": "2026-09-02T12:01:04.405908+00:00",
+  "date": "Thursday 03 September 2026",
+  "generated": "2026-09-03T12:00:28.313502+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
@@ -9,10 +9,16 @@
       "end": "10:00"
     },
     {
-      "name": "Matthew Reed",
+      "name": "Unknown",
       "department": "The Station",
       "start": "08:00",
       "end": "17:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
     },
     {
       "name": "Sophie Grufferty",
@@ -39,15 +45,27 @@
       "end": "16:00"
     },
     {
-      "name": "Belinda Stares",
+      "name": "Karen Lawrence",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "10:00",
+      "end": "20:00"
+    },
+    {
+      "name": "Volunteer V",
+      "department": "The Station Cinema",
+      "start": "10:45",
+      "end": "13:00"
+    },
+    {
       "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "12:00",
+      "start": "13:00",
       "end": "18:00"
     },
     {
@@ -57,22 +75,22 @@
       "end": "15:00"
     },
     {
-      "name": "Sarah Iveson",
+      "name": "Eddy Player",
       "department": "The Station",
-      "start": "14:45",
-      "end": "22:45"
+      "start": "13:30",
+      "end": "22:00"
     },
     {
-      "name": "Poppy Gaughan",
+      "name": "Grace Baker",
       "department": "The Station Cinema",
       "start": "18:00",
-      "end": "21:30"
+      "end": "22:00"
     },
     {
       "name": "Finlay Reed",
       "department": "The Station Cinema",
-      "start": "18:15",
-      "end": "22:45"
+      "start": "18:00",
+      "end": "21:15"
     }
   ]
 }
