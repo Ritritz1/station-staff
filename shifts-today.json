@@ -1,6 +1,6 @@
 {
-  "date": "Saturday 05 September 2026",
-  "generated": "2026-09-05T11:11:52.788789+00:00",
+  "date": "Sunday 06 September 2026",
+  "generated": "2026-09-06T11:34:53.917903+00:00",
   "shifts": [
     {
       "name": "Wahidullah Durgai",
@@ -15,46 +15,40 @@
       "end": "16:30"
     },
     {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "09:30",
-      "end": "13:00"
-    },
-    {
-      "name": "Grace Baker",
-      "department": "The Station Cinema",
-      "start": "09:30",
-      "end": "15:30"
-    },
-    {
-      "name": "Karen Lawrence",
+      "name": "Glenys Jones",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Poppy Gaughan",
-      "department": "The Station Cinema",
-      "start": "10:45",
-      "end": "17:00"
-    },
-    {
-      "name": "Eddy Player",
+      "name": "Harry Ritson",
       "department": "The Station",
-      "start": "13:00",
-      "end": "23:00"
+      "start": "10:30",
+      "end": "21:30"
     },
     {
       "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "21:45"
+      "start": "10:45",
+      "end": "16:45"
     },
     {
-      "name": "Lyssy Astwood",
+      "name": "Grace Baker",
       "department": "The Station Cinema",
-      "start": "18:30",
-      "end": "23:00"
+      "start": "12:15",
+      "end": "18:15"
+    },
+    {
+      "name": "Finlay Reed",
+      "department": "The Station Cinema",
+      "start": "18:15",
+      "end": "21:00"
+    },
+    {
+      "name": "Leo Vogel",
+      "department": "The Station Cinema",
+      "start": "18:15",
+      "end": "21:45"
     }
   ]
 }
