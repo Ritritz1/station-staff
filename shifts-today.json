@@ -1,12 +1,18 @@
 {
-  "date": "Tuesday 08 September 2026",
-  "generated": "2026-09-08T12:02:57.861514+00:00",
+  "date": "Wednesday 09 September 2026",
+  "generated": "2026-09-09T12:13:49.681000+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
+    },
+    {
+      "name": "Matthew Reed",
+      "department": "The Station",
+      "start": "08:00",
+      "end": "17:00"
     },
     {
       "name": "Gemma Lord",
@@ -39,16 +45,16 @@
       "end": "16:30"
     },
     {
-      "name": "Dan Westgarth",
-      "department": "The Station",
-      "start": "09:30",
-      "end": "17:00"
-    },
-    {
-      "name": "Karen Lawrence",
+      "name": "Leanne Acton",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
+    },
+    {
+      "name": "Eddy Player",
+      "department": "The Station",
+      "start": "10:00",
+      "end": "18:00"
     },
     {
       "name": "Volunteer V",
@@ -57,10 +63,16 @@
       "end": "13:00"
     },
     {
-      "name": "Lyssy Astwood",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "13:00",
+      "end": "22:00"
+    },
+    {
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "13:00",
-      "end": "18:30"
+      "end": "18:00"
     },
     {
       "name": "Tracy Stanton",
@@ -69,22 +81,16 @@
       "end": "15:00"
     },
     {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "14:00",
-      "end": "23:00"
-    },
-    {
-      "name": "Leo Vogel",
+      "name": "Poppy Gaughan",
       "department": "The Station Cinema",
-      "start": "18:30",
+      "start": "17:45",
       "end": "22:00"
     },
     {
-      "name": "Grace Baker",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "18:30",
-      "end": "23:00"
+      "start": "18:00",
+      "end": "22:00"
     }
   ]
 }
