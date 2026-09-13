@@ -1,6 +1,6 @@
 {
-  "date": "Saturday 12 September 2026",
-  "generated": "2026-09-12T11:32:21.113628+00:00",
+  "date": "Sunday 13 September 2026",
+  "generated": "2026-09-13T12:38:03.545229+00:00",
   "shifts": [
     {
       "name": "Wahidullah Durgai",
@@ -15,34 +15,34 @@
       "end": "16:30"
     },
     {
-      "name": "Sharon King",
+      "name": "Glenys Jones",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Finlay Reed",
-      "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "17:00"
-    },
-    {
-      "name": "Eddy Player",
+      "name": "Harry Ritson",
       "department": "The Station",
-      "start": "13:00",
-      "end": "22:15"
-    },
-    {
-      "name": "Poppy Gaughan",
-      "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "21:15"
+      "start": "11:30",
+      "end": "20:30"
     },
     {
       "name": "Hollie Hipkiss-Walker",
       "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "22:00"
+      "start": "11:30",
+      "end": "16:45"
+    },
+    {
+      "name": "Finlay Reed",
+      "department": "The Station Cinema",
+      "start": "16:15",
+      "end": "20:45"
+    },
+    {
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "16:30",
+      "end": "21:15"
     }
   ]
 }
