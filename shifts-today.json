@@ -1,81 +1,45 @@
 {
-  "date": "Friday 18 September 2026",
-  "generated": "2026-09-18T12:08:43.970060+00:00",
+  "date": "Saturday 19 September 2026",
+  "generated": "2026-09-19T11:51:20.897443+00:00",
   "shifts": [
     {
-      "name": "Eddy Player",
+      "name": "Wahidullah Durgai",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
     },
     {
-      "name": "Matthew Reed",
+      "name": "Richard Wilding",
       "department": "The Station",
       "start": "08:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Gemma Lord",
-      "department": "The Station",
-      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Sophie Grufferty",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Holly Robinson",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Ella Harris",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Anna Tunstall",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Dilys Bruce",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Poppy Gaughan",
-      "department": "The Station Cinema",
-      "start": "12:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Tracy Stanton",
-      "department": "The Station Building",
-      "start": "13:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Eddy Player",
+      "name": "Harry Ritson",
       "department": "The Station",
-      "start": "16:00",
+      "start": "11:00",
       "end": "22:00"
     },
     {
       "name": "Leo Vogel",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "22:15"
+      "start": "12:00",
+      "end": "17:00"
     },
     {
       "name": "Hollie Hipkiss-Walker",
+      "department": "The Station Cinema",
+      "start": "17:00",
+      "end": "22:00"
+    },
+    {
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "22:00"
