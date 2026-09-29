@@ -1,18 +1,24 @@
 {
-  "date": "Monday 28 September 2026",
-  "generated": "2026-09-28T15:10:42.704261+00:00",
+  "date": "Tuesday 29 September 2026",
+  "generated": "2026-09-29T13:53:23.278528+00:00",
   "shifts": [
     {
-      "name": "Richard Wilding",
+      "name": "John Mcmeakin",
       "department": "The Station Building",
-      "start": "06:00",
-      "end": "09:00"
+      "start": "05:00",
+      "end": "10:00"
     },
     {
       "name": "Matthew Reed",
       "department": "The Station",
       "start": "08:00",
       "end": "17:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
     },
     {
       "name": "Gemma Lord",
@@ -42,10 +48,16 @@
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
-      "end": "20:00"
+      "end": "16:30"
     },
     {
-      "name": "Glenys Jones",
+      "name": "Harry Ritson",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Karen Lawrence",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
@@ -53,20 +65,8 @@
     {
       "name": "Dan Westgarth",
       "department": "The Station",
-      "start": "10:30",
-      "end": "20:30"
-    },
-    {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "12:00",
-      "end": "20:00"
-    },
-    {
-      "name": "Leo Vogel",
-      "department": "The Station Cinema",
-      "start": "12:15",
-      "end": "18:00"
+      "start": "10:00",
+      "end": "19:45"
     },
     {
       "name": "Tracy Stanton",
@@ -75,22 +75,28 @@
       "end": "15:00"
     },
     {
-      "name": "Sarah Iveson",
-      "department": "The Station",
-      "start": "14:00",
-      "end": "20:00"
-    },
-    {
       "name": "Eddy Player",
       "department": "The Station",
-      "start": "17:00",
-      "end": "22:00"
+      "start": "13:00",
+      "end": "22:15"
     },
     {
-      "name": "Hollie Hipkiss-Walker",
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "13:00",
+      "end": "17:30"
+    },
+    {
+      "name": "Finlay Reed",
+      "department": "The Station Cinema",
+      "start": "17:30",
+      "end": "21:30"
+    },
+    {
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "18:00",
-      "end": "22:00"
+      "end": "22:15"
     }
   ]
 }
