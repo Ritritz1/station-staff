@@ -1,6 +1,6 @@
 {
-  "date": "Tuesday 29 September 2026",
-  "generated": "2026-09-29T13:53:23.278528+00:00",
+  "date": "Wednesday 30 September 2026",
+  "generated": "2026-09-30T13:29:07.045200+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
@@ -11,8 +11,8 @@
     {
       "name": "Matthew Reed",
       "department": "The Station",
-      "start": "08:00",
-      "end": "17:00"
+      "start": "06:30",
+      "end": "16:30"
     },
     {
       "name": "Sarah Iveson",
@@ -39,7 +39,7 @@
       "end": "16:30"
     },
     {
-      "name": "Ella Harris",
+      "name": "Unknown",
       "department": "The Station",
       "start": "08:30",
       "end": "16:30"
@@ -51,22 +51,16 @@
       "end": "16:30"
     },
     {
-      "name": "Harry Ritson",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Karen Lawrence",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Dan Westgarth",
+      "name": "Eddy Player",
       "department": "The Station",
       "start": "10:00",
-      "end": "19:45"
+      "end": "18:00"
     },
     {
       "name": "Tracy Stanton",
@@ -75,28 +69,22 @@
       "end": "15:00"
     },
     {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "13:00",
-      "end": "22:15"
-    },
-    {
-      "name": "Poppy Gaughan",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "13:00",
-      "end": "17:30"
+      "end": "18:00"
+    },
+    {
+      "name": "Hollie Hipkiss-Walker",
+      "department": "The Station",
+      "start": "18:00",
+      "end": "22:15"
     },
     {
       "name": "Finlay Reed",
       "department": "The Station Cinema",
-      "start": "17:30",
-      "end": "21:30"
-    },
-    {
-      "name": "Leo Vogel",
-      "department": "The Station Cinema",
       "start": "18:00",
-      "end": "22:15"
+      "end": "22:00"
     }
   ]
 }
