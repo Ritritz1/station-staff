@@ -1,6 +1,6 @@
 {
-  "date": "Friday 02 October 2026",
-  "generated": "2026-10-02T13:42:09.696461+00:00",
+  "date": "Saturday 03 October 2026",
+  "generated": "2026-10-03T12:22:09.451728+00:00",
   "shifts": [
     {
       "name": "Wahidullah Durgai",
@@ -9,70 +9,34 @@
       "end": "10:00"
     },
     {
-      "name": "Dan Westgarth",
+      "name": "Richard Wilding",
       "department": "The Station",
       "start": "08:00",
-      "end": "18:00"
-    },
-    {
-      "name": "Matthew Reed",
-      "department": "The Station",
-      "start": "08:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Holly Robinson",
-      "department": "The Station",
-      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Sophie Grufferty",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Anna Tunstall",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Dilys Bruce",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Gemma Lord",
-      "department": "The Station",
-      "start": "11:00",
-      "end": "22:00"
-    },
-    {
-      "name": "Leo Vogel",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
       "start": "12:30",
-      "end": "18:00"
+      "end": "17:00"
     },
     {
-      "name": "Tracy Stanton",
-      "department": "The Station Building",
-      "start": "13:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Isabelle Bannister",
-      "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "22:00"
+      "name": "Hollie Hipkiss-Walker",
+      "department": "The Station",
+      "start": "12:30",
+      "end": "22:15"
     },
     {
       "name": "Poppy Gaughan",
       "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "22:00"
+      "start": "17:00",
+      "end": "22:15"
     }
   ]
 }
