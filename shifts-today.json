@@ -1,6 +1,6 @@
 {
-  "date": "Saturday 10 October 2026",
-  "generated": "2026-10-10T13:27:10.636173+00:00",
+  "date": "Sunday 11 October 2026",
+  "generated": "2026-10-11T13:52:30.058324+00:00",
   "shifts": [
     {
       "name": "Wahidullah Durgai",
@@ -15,34 +15,28 @@
       "end": "16:30"
     },
     {
-      "name": "Belinda Stares",
+      "name": "Glenys Jones",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
+      "name": "Finlay Reed",
+      "department": "The Station Cinema",
+      "start": "12:30",
+      "end": "16:30"
+    },
+    {
       "name": "Hollie Hipkiss-Walker",
       "department": "The Station",
-      "start": "12:30",
-      "end": "22:00"
+      "start": "13:00",
+      "end": "20:15"
     },
     {
       "name": "Poppy Gaughan",
       "department": "The Station Cinema",
-      "start": "13:00",
-      "end": "18:00"
-    },
-    {
-      "name": "Finlay Reed",
-      "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "22:00"
-    },
-    {
-      "name": "Isabelle Bannister",
-      "department": "The Station Cinema",
-      "start": "18:00",
-      "end": "21:45"
+      "start": "16:30",
+      "end": "20:15"
     }
   ]
 }
