@@ -1,12 +1,12 @@
 {
-  "date": "Monday 12 October 2026",
-  "generated": "2026-10-12T16:36:49.056921+00:00",
+  "date": "Tuesday 13 October 2026",
+  "generated": "2026-10-13T14:53:40.194693+00:00",
   "shifts": [
     {
-      "name": "Richard Wilding",
+      "name": "John Mcmeakin",
       "department": "The Station Building",
-      "start": "06:00",
-      "end": "09:00"
+      "start": "05:00",
+      "end": "10:00"
     },
     {
       "name": "Matthew Reed",
@@ -54,13 +54,7 @@
       "name": "Anna Tunstall",
       "department": "The Station",
       "start": "09:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "10:00"
+      "end": "16:30"
     },
     {
       "name": "Glenys Jones",
@@ -69,10 +63,10 @@
       "end": "16:15"
     },
     {
-      "name": "Leo Vogel",
+      "name": "Volunteer V",
       "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "22:00"
+      "start": "10:45",
+      "end": "13:00"
     },
     {
       "name": "Jake Rogers",
@@ -87,16 +81,28 @@
       "end": "15:00"
     },
     {
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "13:00",
+      "end": "18:00"
+    },
+    {
       "name": "Eddy Player",
       "department": "The Station",
-      "start": "15:15",
+      "start": "14:15",
       "end": "22:15"
     },
     {
-      "name": "Isabelle Bannister",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "22:00"
+    },
+    {
+      "name": "Leo Vogel",
+      "department": "The Station Cinema",
+      "start": "18:00",
+      "end": "21:30"
     }
   ]
 }
