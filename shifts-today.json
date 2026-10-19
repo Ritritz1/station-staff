@@ -1,18 +1,54 @@
 {
-  "date": "Sunday 18 October 2026",
-  "generated": "2026-10-18T11:59:11.593726+00:00",
+  "date": "Monday 19 October 2026",
+  "generated": "2026-10-19T14:28:50.604853+00:00",
   "shifts": [
     {
-      "name": "Wahidullah Durgai",
+      "name": "Richard Wilding",
       "department": "The Station Building",
-      "start": "05:00",
-      "end": "10:00"
+      "start": "06:00",
+      "end": "09:00"
     },
     {
-      "name": "Richard Wilding",
+      "name": "Matthew Reed",
       "department": "The Station",
       "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "08:00",
+      "end": "18:00"
+    },
+    {
+      "name": "Sarah Iveson",
+      "department": "The Station",
+      "start": "08:30",
       "end": "16:30"
+    },
+    {
+      "name": "Holly Robinson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Gemma Lord",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Sophie Grufferty",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
+      "name": "Anna Tunstall",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "15:00"
     },
     {
       "name": "Glenys Jones",
@@ -21,10 +57,10 @@
       "end": "16:15"
     },
     {
-      "name": "Sarah Iveson",
-      "department": "The Station",
+      "name": "Jake Rogers",
+      "department": "The Station Cinema",
       "start": "12:30",
-      "end": "20:30"
+      "end": "18:30"
     },
     {
       "name": "Poppy Gaughan",
@@ -33,16 +69,28 @@
       "end": "18:00"
     },
     {
-      "name": "Leo Vogel",
-      "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "20:15"
+      "name": "Tracy Stanton",
+      "department": "The Station Building",
+      "start": "13:00",
+      "end": "15:00"
     },
     {
-      "name": "Isabelle Bannister",
+      "name": "Eddy Player",
+      "department": "The Station",
+      "start": "14:15",
+      "end": "22:15"
+    },
+    {
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
-      "start": "17:00",
-      "end": "20:15"
+      "start": "18:00",
+      "end": "22:00"
+    },
+    {
+      "name": "Leo Vogel",
+      "department": "The Station Cinema",
+      "start": "18:00",
+      "end": "22:15"
     }
   ]
 }
