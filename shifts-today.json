@@ -1,6 +1,6 @@
 {
-  "date": "Friday 23 October 2026",
-  "generated": "2026-10-23T12:30:11.300347+00:00",
+  "date": "Saturday 24 October 2026",
+  "generated": "2026-10-24T11:54:30.635001+00:00",
   "shifts": [
     {
       "name": "Wahidullah Durgai",
@@ -9,52 +9,10 @@
       "end": "10:00"
     },
     {
-      "name": "Matthew Reed",
+      "name": "Richard Wilding",
       "department": "The Station",
       "start": "08:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Holly Robinson",
-      "department": "The Station",
-      "start": "08:30",
       "end": "16:30"
-    },
-    {
-      "name": "Gemma Lord",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Sophie Grufferty",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Ella Harris",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Anna Tunstall",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Jake Rogers",
-      "department": "The Station Cinema",
-      "start": "09:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "09:00",
-      "end": "15:00"
     },
     {
       "name": "Belinda Stares",
@@ -63,34 +21,22 @@
       "end": "16:15"
     },
     {
-      "name": "Leo Vogel",
+      "name": "Hollie Hipkiss-Walker",
+      "department": "The Station",
+      "start": "12:30",
+      "end": "22:00"
+    },
+    {
+      "name": "Poppy Gaughan",
       "department": "The Station Cinema",
       "start": "12:30",
-      "end": "19:30"
+      "end": "18:00"
     },
     {
-      "name": "Tracy Stanton",
-      "department": "The Station Building",
-      "start": "13:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Isabelle Bannister",
+      "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "22:00"
-    },
-    {
-      "name": "Molly Mckeon",
-      "department": "The Station",
-      "start": "18:00",
-      "end": "22:00"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "20:00",
-      "end": "22:15"
     }
   ]
 }
