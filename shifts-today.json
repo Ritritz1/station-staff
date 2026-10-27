@@ -1,12 +1,12 @@
 {
-  "date": "Monday 26 October 2026",
-  "generated": "2026-10-26T14:01:59.207463+00:00",
+  "date": "Tuesday 27 October 2026",
+  "generated": "2026-10-27T13:04:00.136927+00:00",
   "shifts": [
     {
-      "name": "Richard Wilding",
+      "name": "John Mcmeakin",
       "department": "The Station Building",
-      "start": "06:00",
-      "end": "09:00"
+      "start": "05:00",
+      "end": "10:00"
     },
     {
       "name": "Matthew Reed",
@@ -27,6 +27,12 @@
       "end": "16:30"
     },
     {
+      "name": "Holly Robinson",
+      "department": "The Station",
+      "start": "08:30",
+      "end": "16:30"
+    },
+    {
       "name": "Sophie Grufferty",
       "department": "The Station",
       "start": "08:30",
@@ -39,10 +45,22 @@
       "end": "16:30"
     },
     {
-      "name": "Glenys Jones",
+      "name": "Anna Tunstall",
+      "department": "The Station",
+      "start": "09:00",
+      "end": "16:30"
+    },
+    {
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
+    },
+    {
+      "name": "Volunteer V",
+      "department": "The Station Cinema",
+      "start": "10:45",
+      "end": "13:00"
     },
     {
       "name": "Jake Rogers",
@@ -51,25 +69,25 @@
       "end": "18:30"
     },
     {
-      "name": "Leo Vogel",
-      "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "18:00"
-    },
-    {
       "name": "Tracy Stanton",
       "department": "The Station Building",
       "start": "13:00",
       "end": "15:00"
     },
     {
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "13:00",
+      "end": "18:00"
+    },
+    {
       "name": "Eddy Player",
       "department": "The Station",
       "start": "14:00",
-      "end": "22:00"
+      "end": "22:15"
     },
     {
-      "name": "Finlay Reed",
+      "name": "Isabelle Bannister",
       "department": "The Station Cinema",
       "start": "18:00",
       "end": "22:00"
