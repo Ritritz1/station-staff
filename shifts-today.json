@@ -1,12 +1,24 @@
 {
-  "date": "Wednesday 11 November 2026",
-  "generated": "2026-11-11T14:59:21.665512+00:00",
+  "date": "Thursday 12 November 2026",
+  "generated": "2026-11-12T15:52:02.897767+00:00",
   "shifts": [
     {
       "name": "John Mcmeakin",
       "department": "The Station Building",
       "start": "05:00",
       "end": "10:00"
+    },
+    {
+      "name": "Matthew Reed",
+      "department": "The Station",
+      "start": "08:00",
+      "end": "17:00"
+    },
+    {
+      "name": "Dan Westgarth",
+      "department": "The Station",
+      "start": "08:00",
+      "end": "18:00"
     },
     {
       "name": "Holly Robinson",
@@ -45,16 +57,16 @@
       "end": "17:00"
     },
     {
-      "name": "Belinda Stares",
+      "name": "Sharon King",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Jake Rogers",
+      "name": "Volunteer V",
       "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "18:30"
+      "start": "10:45",
+      "end": "13:00"
     },
     {
       "name": "Tracy Stanton",
@@ -63,21 +75,27 @@
       "end": "15:00"
     },
     {
+      "name": "Poppy Gaughan",
+      "department": "The Station Cinema",
+      "start": "13:00",
+      "end": "18:00"
+    },
+    {
       "name": "Leo Vogel",
       "department": "The Station Cinema",
       "start": "13:00",
       "end": "18:00"
     },
     {
-      "name": "Hollie Hipkiss-Walker",
-      "department": "The Station",
-      "start": "17:00",
+      "name": "Jake Rogers",
+      "department": "The Station Cinema",
+      "start": "16:00",
       "end": "22:00"
     },
     {
-      "name": "Poppy Gaughan",
-      "department": "The Station Cinema",
-      "start": "18:00",
+      "name": "Chloe Mackenzie",
+      "department": "The Station",
+      "start": "17:00",
       "end": "22:00"
     },
     {
