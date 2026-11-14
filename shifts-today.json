@@ -1,84 +1,36 @@
 {
-  "date": "Friday 13 November 2026",
-  "generated": "2026-11-13T15:13:07.466197+00:00",
+  "date": "Saturday 14 November 2026",
+  "generated": "2026-11-14T14:00:12.161447+00:00",
   "shifts": [
     {
-      "name": "Richard Wilding",
+      "name": "Wahidullah Durgai",
       "department": "The Station Building",
-      "start": "06:00",
-      "end": "09:00"
+      "start": "05:00",
+      "end": "10:00"
     },
     {
-      "name": "Matthew Reed",
+      "name": "Richard Wilding",
       "department": "The Station",
       "start": "08:00",
-      "end": "17:00"
-    },
-    {
-      "name": "Holly Robinson",
-      "department": "The Station",
-      "start": "08:30",
       "end": "16:30"
     },
     {
-      "name": "Gemma Lord",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Sophie Grufferty",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Ella Harris",
-      "department": "The Station",
-      "start": "08:30",
-      "end": "16:30"
-    },
-    {
-      "name": "Dilys Bruce",
+      "name": "Belinda Stares",
       "department": "The Station Shop",
       "start": "09:45",
       "end": "16:15"
     },
     {
-      "name": "Volunteer V",
-      "department": "The Station Cinema",
-      "start": "10:45",
-      "end": "13:00"
-    },
-    {
-      "name": "Dan Westgarth",
+      "name": "Hollie Hipkiss-Walker",
       "department": "The Station",
-      "start": "12:00",
+      "start": "12:30",
       "end": "22:15"
     },
     {
-      "name": "Jake Rogers",
-      "department": "The Station Cinema",
-      "start": "12:30",
-      "end": "18:30"
-    },
-    {
-      "name": "Tracy Stanton",
-      "department": "The Station Building",
-      "start": "13:00",
-      "end": "15:00"
-    },
-    {
-      "name": "Riley Lister",
+      "name": "Finlay Reed",
       "department": "The Station Cinema",
       "start": "13:00",
       "end": "18:00"
-    },
-    {
-      "name": "Dan Eldred",
-      "department": "The Station Cinema",
-      "start": "14:00",
-      "end": "22:15"
     },
     {
       "name": "Isabelle Bannister",
@@ -90,13 +42,7 @@
       "name": "Poppy Gaughan",
       "department": "The Station Cinema",
       "start": "18:00",
-      "end": "22:00"
-    },
-    {
-      "name": "Eddy Player",
-      "department": "The Station",
-      "start": "20:00",
-      "end": "22:00"
+      "end": "22:15"
     }
   ]
 }
